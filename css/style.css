@@ -1,0 +1,17 @@
+.TheGeneralPartOfEventsInPhotos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EventsInPhotos{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.1s;
+    align-items: center;
+    text-align: center;
+}
+
+.EventsInPhotos:hover{
+    transform: scale(0.8);
+}
