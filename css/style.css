@@ -58,3 +58,27 @@ body{
 
     }
 }
+.TheGeneralPartOfEventsInPhotos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.EventsInPhotos{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.EventsInPhotos:hover{
+    transform: scale(0.8);
+}
+
+.TextForEventsInPhotos{
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+  }
