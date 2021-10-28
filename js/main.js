@@ -88,3 +88,16 @@ function over7(){
 function hide7(){
     display7.classList.remove('hs-sub-menu-opened');//Удаление класса show к элементу (скрывает меню)
 }
+
+    let hovermenu8 = document.getElementById('menu8'); //Получение выпадающего меню 8
+        hovermenu8.onmouseover = over8; //Вызов функции over при наведении
+        hovermenu8.onmouseout = hide8; //Вызов функции hide при наведении
+    var display8 = document.getElementById('menu8'); //получение элемента menu8
+
+    function over8(){
+        display8.classList.add('hs-mega-menu-opened'); //Добавление класса show к элементу (показывает меню)
+    }
+
+    function hide8(){
+        display8.classList.remove('hs-mega-menu-opened');//Удаление класса show к элементу (скрывает меню)
+    }
