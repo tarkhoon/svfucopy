@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background: gray;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 ul{
@@ -8,7 +9,8 @@ ul{
     margin-bottom: 1rem;
 }
 a {
-    color: #0275d8;
+    color: #09304A;
+    outline: none;
     text-decoration: none;
 }
 .mx-auto {
@@ -83,6 +85,16 @@ a {
 .ht-left{
     float: left;
 }
+.ht-left .list-inline,.ht-right .list-inline{
+    margin: 0%;
+}
+.g-mx-10 {
+    margin-left: 0.71429rem !important;
+    margin-right: 0.71429rem !important;
+}
+.g-color-red {
+    color: #f00 !important;
+}
 .ht-right{
     float: right;
 }
@@ -95,6 +107,67 @@ a {
 .list-inline-item{
     display: inline-block!important;
 }
+.g-color-primary {
+    color: #09304A !important;
+}
+.g-brd-gray-light-v4 {
+    border-color: #eee !important;
+}
+.g-brd-around {
+    border: solid 1px transparent !important;
+}
+.g-bg-white {
+    background-color: #fff !important;
+}
+.btn {
+    position: relative;
+    transition: .2s ease;
+    cursor: pointer;
+}
+.btn-group-sm>.btn, .btn-sm {
+    font-size: .875rem;
+    border-radius: .2rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+button, input, select, textarea {
+    line-height: inherit;
+}
+[role=button], a, area, button, input, label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
 .header-center{
     width: 100%;
     position: relative;
@@ -103,7 +176,6 @@ a {
 }
 .header-bottom{
     width: 100%;
-    height: 40px;
     position: relative;
 }
 .left-logo{
@@ -377,4 +449,86 @@ small {
 }
 .g-bg-black-opacity-0_1 {
     background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.navbar-nav {
+    display: flex;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.g-color-white {
+    color: #fff !important;
+}
+.nav-item.hs-has-sub-menu > a,  .nav-item.hs-has-mega-menu > a,  .nav-item.dropdown > a {
+    padding-left: 1.81429rem;
+    position: relative;
+    z-index: 1;
+    padding-right: 1.42857rem;
+    padding: 0.78571rem 1.14286rem;
+}
+
+.g-width-250 {
+    width: 250px !important;
+    max-width: 100%;
+}
+.nav-link {
+     display: block; 
+    padding: .5em 1em;
+}
+.u-header {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 0.92857rem;
+    z-index: 101;
+}
+#mega-menu-label-1{
+    width: 100%;
+}
+.hs-sub-menu a,.dropdown-menu a {
+    color: #777;
+    text-decoration: none !important;
+    display: block;
+    padding: 0.42857rem 1.78571rem;
+}
+.hs-sub-menu, .hs-mega-menu, .dropdown-menu {
+    font-weight: normal;
+    text-transform: none;
+    min-width: 14.28571rem;
+    margin-top: 0;
+    padding: 0;
+    color: inherit;
+     background-color: #fff; 
+    background-clip: border-box;
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    border-top-color: #09304A;
+    border-bottom-color: #777;
+    border-radius: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+.hs-sub-menu, .hs-mega-menu {
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    /* width: 100%; */
+    background-color: #fff;
+}
+.hs-sub-menu-opened > .hs-sub-menu, .hs-mega-menu-opened > .hs-mega-menu {
+    visibility: visible;
+    opacity: 1;
+}
+ .hs-sub-menu,.hs-mega-menu {
+    display: block !important;
 }
