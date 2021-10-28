@@ -8,9 +8,12 @@ body{
 .g-bg-blue{
     background: #09304A !important;
 }
+
 .header{
     width: 100%;
+    background: white;
 }
+
 .header-top{
     width: 100%;
     height: 35px;
@@ -18,17 +21,20 @@ body{
     position: relative;
     z-index: 2;
 }
+
 .header-center{
     width: 100%;
     position: relative;
     padding-top: 0.71429rem !important;
     padding-bottom: 0.71429rem !important;
 }
+
 .header-bottom{
     width: 100%;
     height: 40px;
     position: relative;
 }
+
 .left-logo{
     height: 400px;
     width: 300px;
@@ -38,36 +44,42 @@ body{
     left: 0.71429rem;
     z-index: 1;
 }
+
 .container{
     display: flex;
     align-items: center;
 }
+
 .logo{
     padding-top: .25rem;
     padding-bottom: .25rem;
 }
+
 .logo-img{
     margin-bottom: 0.71429rem !important;
     width: 300px !important;
 
 }
+
 @media (min-width: 1200px){
     .container {
         width: 1140px;
         max-width: 100%;
     }
 }
+
 .TheGeneralPartOfEventsInPhotos{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
 }
 
 .EventsInPhotos{
     margin-left: auto;
     margin-right: auto;
     transition: 0.3s;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .EventsInPhotos:hover{
@@ -75,9 +87,15 @@ body{
 }
 
 .TextForEventsInPhotos{
-    position: absolute;
-    top: 50%;
-    text-transform: uppercase;
-    color: white;
-    padding: 20px;
-  }
+    text-align: left;
+    width: auto;
+    padding: 50px;
+    position: relative;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+}
