@@ -96,6 +96,8 @@ ul{
 }
 .container{
     align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 header .container{
     display: flex;
@@ -132,7 +134,7 @@ header .container{
 .EventsInPhotos{
     transition: 0.3s;
     overflow: hidden;
-    max-width: 265px;
+    max-width: 100%;
 }
 
 .EventsInPhotos:hover{
@@ -147,6 +149,8 @@ header .container{
     overflow: hidden;
     -webkit-transform: translate3d(0, -20px, 0) scale3d(1.1, 1.1, 1.1);
     transform: translate3d(0, -20px, 0) scale3d(1.1, 1.1, 1.1);
+    max-height: 325px;
+    max-width: 265px;
 }
 @media (min-width: 0){
     .col-news {
