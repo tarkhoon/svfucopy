@@ -2,8 +2,14 @@ body{
     margin: 0px;
     background: gray;
 }
+
 ul{
     margin: 0;
+    margin-bottom: 1rem;
+}
+a {
+    color: #0275d8;
+    text-decoration: none;
 }
 .mx-auto {
     margin-right: auto!important;
@@ -60,6 +66,19 @@ ul{
 .font-12{
     font-size: 0.85714rem !important;
     font-weight: 600;
+}
+.h6{
+    font-size: 1rem;
+}
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
 }
 .ht-left{
     float: left;
@@ -211,4 +230,151 @@ header .container{
     display: inline-block;
     border-top-style: solid;
     border-color: inherit;
+}
+.inf-bord {
+    margin-bottom: 1.42857rem !important;
+}
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa:before {
+    content: "\f105";
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.g-mb-5{
+    margin-bottom: 0.35714rem !important;
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -webkit-justify-content: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.w-16, .w-66{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.br{
+    width: 50%;
+    padding-top: 0.71429rem !important;
+    padding-bottom: 0.71429rem !important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+[class*="u-icon-v"] .u-line-icon-pro {
+    -webkit-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
+}
+.u-icon-v1 > i, .u-icon-v2 > i, .u-icon-v3 > i, .u-icon-v4 > span > i {
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.u-icon-v1.u-icon-size--2xl, .u-icon-v1.u-icon-size--2xl .u-icon__elem-regular, .u-icon-v1.u-icon-size--2xl .u-icon__elem-hover {
+    width: 5.85714rem;
+    height: 5.85714rem;
+    font-size: 3.57143rem;
+}
+.icon-electronics-005:before {
+    content: "G";
+}
+[class^="icon-electronics"]:before, [class*=" icon-electronics"]:before {
+    font-family: "electronics" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-communication-062:before {
+    content: "1";
+}
+[class^="icon-communication"]:before, [class*=" icon-communication"]:before {
+    font-family: "communication-48-x-48" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.row-1{    
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.bottom-rr{
+    border-left: solid 1px transparent !important;
+    border-color: #eee !important;
+}
+
+.br{
+    border-bottom: solid 1px transparent !important;
+    border-color: #eee !important;
+    width: 100%;
+}
+.row-br{
+    display: flex;
+    width: 100%;
+}
+.bottom-b{
+    padding-top: 0.71429rem !important;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-md-8 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.666667%;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-md-2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.666667%;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.g-py-15 {
+    padding-top: 1.07143rem !important;
+    padding-bottom: 1.07143rem !important;
+}
+.d-lg-flex {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.g-font-size-default {
+    font-size: 1rem !important;
+}
+small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 5px;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.g-bg-black-opacity-0_1 {
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
