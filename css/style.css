@@ -276,9 +276,15 @@ header .container{
         overflow: hidden;
         max-width: 100%;
     }
-    .EventsInPhotos::after {
+    .EventsInPhotos::after{
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
         background-repeat: repeat-x;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0.35714rem;
+        bottom: 0.35714rem;
+        left: 0.35714rem;
     }
     .EventsInPhotos:hover{
         transform: scale(0.8);
@@ -295,7 +301,9 @@ header .container{
     .TextForEventsInPhotos a{
         color: white;
     }
-
+    .row .TheGeneralBlocks{
+        margin-left: 20px;
+    }
 /* Личности */
 
     .TextPersonalities{
