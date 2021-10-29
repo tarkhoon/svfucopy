@@ -2,6 +2,10 @@ body{
     margin: 0px;
     background-color: #eee !important;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
 }
 
 ul{
@@ -221,6 +225,7 @@ header .container{
 .fadein { 
     position:relative; 
     width:100%;
+    margin-top: 15px;
 }
 
     .fadein img { 
@@ -228,7 +233,7 @@ header .container{
     width:100%; 
     left:0; 
     right:0; 
-    opacity:0; 
+    opacity:1; 
     animation-name: fade; 
     animation-duration: 24s; 
     animation-iteration-count: infinite; 
@@ -298,7 +303,7 @@ header .container{
         width: 25%;
         margin-left: 15px;
         margin-right: 15px;
-        height: 250px;
+        padding: 5px;
         background: white;
         text-align: center;
         display: flex;
@@ -311,7 +316,16 @@ header .container{
         margin-left: auto;
         margin-right: auto;
     }
-
+    .g-color-gray-dark-v5 {
+        color: #999 !important;
+    }
+    .g-font-size-13 {
+        font-size: 0.92857rem !important;
+    }
+    .mb-1 {
+        margin-bottom: .25rem!important;
+    }
+    
 /* Лекции */
 
     .OurUniversityLectures{
@@ -788,11 +802,15 @@ small {
 }
 .mCustomScrollBox {
     position: relative;
-    overflow: hidden;
+    overflow-y: scroll;
     height: 100%;
     max-width: 100%;
     outline: 0;
     direction: ltr;
+}
+.mCustomScrollBox::-webkit-scrollbar{
+    background: none;
+    opacity: 0;
 }
 .mCSB_container {
     overflow: hidden;
@@ -870,4 +888,39 @@ small {
     -moz-border-radius: 16px;
     border-radius: 16px;
     text-align: center;
+}
+.card-header {
+    padding: 0.71429rem 1.07143rem;
+}
+.g-my-10 {
+    margin-top: 0.71429rem !important;
+    margin-bottom: 0.71429rem !important;
+}
+.g-brd-gray-light-v4 {
+    border-color: #eee !important;
+}
+.rounded {
+    border-radius: .25rem;
+}
+.g-pa-10 {
+    padding: 0.71429rem !important;
+}
+.g-px-8 {
+    padding-left: 0.57143rem !important;
+    padding-right: 0.57143rem !important;
+}
+.g-color-black {
+    color: #000 !important;
+}
+.g-font-weight-400 {
+    font-weight: 400;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.h5, h5 {
+    font-size: 1.25rem;
 }
