@@ -318,6 +318,8 @@ header .container{
         background: white;
         margin-left: 1px;
         margin-right: 28px;
+        border-left: 2px solid #3398dc;
+        padding: 1.07143rem !important;
     }
     .MainBlockOfPersonalities{
         width: 25%;
@@ -944,4 +946,15 @@ small {
 }
 .h5, h5 {
     font-size: 1.25rem;
+}
+.g-color-blue {
+    color: #3398dc !important;
+}
+.float-right {
+    float: right!important;
+}
+.TheGeneralOfTextPersonalities .g-color-blue{
+    margin: 0;
+    margin-bottom: .5rem;
+    font-size: 1.75rem;
 }
