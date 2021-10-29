@@ -276,14 +276,34 @@ header .container{
         overflow: hidden;
         max-width: 100%;
     }
+    .EventsInPhotos::after{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+        background-repeat: repeat-x;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0.35714rem;
+        bottom: 0.35714rem;
+        left: 0.35714rem;
+    }
     .EventsInPhotos:hover{
         transform: scale(0.8);
     }
     .TextForEventsInPhotos{
-        top: 50%;
+        position: absolute;
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: white;
+        padding: 1.78571rem !important;
+    }
+    .TextForEventsInPhotos a{
         color: white;
     }
-
+    .row .TheGeneralBlocks{
+        margin-left: 20px;
+    }
 /* Личности */
 
     .TextPersonalities{
@@ -356,6 +376,7 @@ header .container{
 }
 @media (min-width: 0){
     .col-news {
+        position: relative;
         padding-left: 0.35714rem !important;
         padding-right: 0.35714rem !important;
         margin-bottom: 0.71429rem !important;
